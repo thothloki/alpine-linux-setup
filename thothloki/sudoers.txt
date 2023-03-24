@@ -1,3 +1,0 @@
-## ThothLoki
-thothloki ALL=(ALL) ALL
-thothloki ALL=(ALL) NOPASSWD: /sbin/poweroff, /sbin/reboot, /bin/mount
