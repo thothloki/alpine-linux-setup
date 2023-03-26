@@ -32,10 +32,10 @@ mkdir -p /home/thothloki/icon
 
 # user setup for thothloki
 cp ./thothloki/wallpaper/sith.jpg /home/thothloki/wallpaper/sith.jpg
-cp ./thothloki/wallpaper/sith.jpg /home/thothloki/wallpaper/sith2.jpg
-cp ./thothloki/wallpaper/sith.jpg /home/thothloki/wallpaper/lock.jpg
-cp ./thothloki/icon/sith-icon-white.jpg /home.thothloki/sith-icon-white.jpg
-cp ./thothloki/icon/sith-icon-red.png /home.thothloki/sith-icon-red.png
+cp ./thothloki/wallpaper/sith2.jpg /home/thothloki/wallpaper/sith2.jpg
+cp ./thothloki/wallpaper/lock.jpg /home/thothloki/wallpaper/lock.jpg
+cp ./thothloki/icon/sith-icon-white.jpg /home/thothloki/sith-icon-white.jpg
+cp ./thothloki/icon/sith-icon-red.png /home/thothloki/sith-icon-red.png
 
 chown -R thothloki:thothloki /home/thothloki
 
@@ -76,3 +76,5 @@ rc-update add cupsd boot
 
 rc-service udev start
 rc-update add udev
+
+echo "ALL DONE"
