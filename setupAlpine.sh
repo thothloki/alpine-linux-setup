@@ -12,7 +12,7 @@ echo "========== step2  ================"
 # install some apps
 #install xfce stuff
 setup-xorg-base
-apk add xrandr dbus dbus-x11 xfce4 xfce4-terminal xfce4-screensaver adwaita-icon-theme lightdm thunar-volman
+apk add xrandr dbus dbus-x11 xfce4 xfce4-terminal xfce4-screensaver adwaita-icon-theme lightdm thunar-volman xfce4-whiskermenu-plugin
 apk add lightdm-gtk-greeter mesa-gl glib accountsservice elogind polkit-elogind
 #install utility stuff to make life easy
 #apk add util-linux pciutils usbutils coreutils binutils findutils grep iproute2
